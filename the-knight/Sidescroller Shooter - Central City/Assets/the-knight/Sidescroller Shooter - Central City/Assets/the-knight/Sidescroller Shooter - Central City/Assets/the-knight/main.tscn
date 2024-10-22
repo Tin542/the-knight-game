@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxshphfvglb22"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_t53mq"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_t53mq")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 380.0
+offset_top = 121.0
+offset_right = 775.0
+offset_bottom = 306.0
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 387.0
+offset_top = 415.0
+offset_right = 777.0
+offset_bottom = 593.0
+text = "Quit
+"
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

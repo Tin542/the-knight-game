@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://b4kljsf62mkjb"]
+
+[node name="World" type="Node"]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 362.0
+offset_bottom = 116.0
+text = "The world"
